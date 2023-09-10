@@ -1,6 +1,7 @@
 ---
 title: Matrix Multiplication
 weight: 20
+published: true
 ---
 
 <!--
@@ -18,7 +19,7 @@ blas 0.27489790320396423 25.747333528217077
 
 In this case study, we will design and implement several algorithms for matrix multiplication.
 
-We start with the naive "for-for-for" algorithm and incrementally improve it, eventually arriving at a version that is 50 times faster and matches the performance of BLAS libraries while being under 40 lines of C.
+We start with the naive "for-for-for" algorithm and incrementally improve it, eventually arriving at a version that is 50 times faster and matches the performance of BLAS libraries, while being under 40 lines of C.
 
 All implementations are compiled with GCC 13 and run on a [Zen 2](https://en.wikichip.org/wiki/amd/microarchitectures/zen_2) CPU clocked at 2GHz.
 
